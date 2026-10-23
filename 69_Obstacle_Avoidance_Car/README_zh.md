@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32 超声波避障小车
 
 ## 项目简介
@@ -15,3 +17,7 @@
 ## 使用方法
 
 打开 `Projects/MDK-ARM` 中的 Keil 工程编译下载。先校准舵机角度和超声波测距，再架空车轮验证转向；若要连续避障，需要补充前进条件和安全距离判断。
+
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。
