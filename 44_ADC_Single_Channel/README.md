@@ -1,5 +1,7 @@
 **English** | [简体中文](README_zh.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 Single-Channel ADC
 
 ## Overview
@@ -26,3 +28,6 @@ Open `Projects/MDK-ARM/stm32f103.uvprojx` in Keil MDK, connect the analog source
 - `Drivers/BSP/adc/adc.c`: ADC setup, channel configuration, and polling.
 - `Users/main.c`: Voltage conversion and output.
 
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
