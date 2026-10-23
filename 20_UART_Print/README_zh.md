@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 串口打印实验
 
 ## 项目简介
@@ -25,3 +27,6 @@ USART1 TX/RX 使用 PA9/PA10，串口参数为 115200-8-N-1。USB 转串口模�
 - `Users/main.c`：打印和 LED 测试。
 - `Drivers/SYSTEM/uart1/`：USART1 驱动与输出重定向。
 
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。
