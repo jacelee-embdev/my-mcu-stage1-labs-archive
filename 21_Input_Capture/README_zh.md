@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 输入捕获基础实验
 
 ## 项目简介
@@ -26,3 +28,6 @@
 - `Drivers/BSP/ic/ic.c`：TIM2 输入捕获与中断回调。
 - `Users/main.c`：初始化和运行指示。
 
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。
