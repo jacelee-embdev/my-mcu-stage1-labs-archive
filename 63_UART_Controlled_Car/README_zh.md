@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32 串口控制小车
 
 ## 项目简介
@@ -19,3 +21,7 @@ USART2 波特率为 115200，驱动目录沿用了 `bluetooth` 名称，但本�
 ## 使用方法
 
 连接电机驱动和串口设备，确保双方共地及电平兼容。打开 `Projects/MDK-ARM` 中的 Keil 工程并下载，然后用串口工具发送完整命令。测试时请先架空车轮，确认方向正确后再落地运行。
+
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。

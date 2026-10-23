@@ -1,4 +1,6 @@
-[简体中文](README_zh.md) | **English**
+**English** | [简体中文](README_zh.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # STM32 UART-Controlled Car
 
@@ -19,3 +21,7 @@ USART2 runs at 115200 baud. The driver folder retains the name `bluetooth`, but 
 ## Usage
 
 Connect the serial adapter and motor driver, ensure compatible voltage levels, and share ground. Open the Keil project under `Projects/MDK-ARM`, build, and flash it, then send complete commands from a serial terminal. Raise the wheels for the first test and verify every direction before driving on the floor.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
