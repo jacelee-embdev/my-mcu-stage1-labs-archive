@@ -1,4 +1,6 @@
-[简体中文](README_zh.md) | **English**
+**English** | [简体中文](README_zh.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # STM32 Infrared Object-Following Car
 
@@ -18,3 +20,7 @@ The driver treats a low level as active and prints both sensor states through th
 ## Usage
 
 Mount the sensors symmetrically and adjust their sensitivity. Open the Keil project under `Projects/MDK-ARM`, build, and flash it. If the car turns away from the target, check the left/right sensor labels, output polarity, and motor directions.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
