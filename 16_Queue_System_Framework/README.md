@@ -1,5 +1,7 @@
 **English** | [简体中文](README_zh.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 Queue-Control Framework
 
 ## Overview
@@ -26,3 +28,6 @@ Open `Projects/MDK-ARM/stm32f103.uvprojx` in Keil MDK. Wire the modules accordin
 - `Drivers/BSP/tasks/`: SysTick task framework.
 - `Drivers/BSP/`: LCD, infrared, buzzer, gate, and LED drivers.
 
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
