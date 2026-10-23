@@ -1,4 +1,6 @@
-[简体中文](README_zh.md) | **English**
+**English** | [简体中文](README_zh.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # STM32 Wi-Fi Car Control and Speed Report
 
@@ -17,3 +19,7 @@ The reported `cm/s` value still requires calibration using wheel and encoder par
 ## Usage
 
 Enter the Wi-Fi, server address, and port for the target network, then open the Keil project under `Projects/MDK-ARM`, build, and flash it.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.

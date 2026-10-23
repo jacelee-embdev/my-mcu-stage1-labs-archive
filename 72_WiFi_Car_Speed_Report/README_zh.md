@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32 Wi-Fi 小车控制与测速上报
 
 ## 项目简介
@@ -17,3 +19,7 @@
 ## 使用方法
 
 打开 `Projects/MDK-ARM` 中的 Keil 工程，填写与实际网络环境相匹配的 Wi-Fi、服务器地址和端口，然后编译下载。
+
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。
