@@ -1,4 +1,6 @@
-[简体中文](README_zh.md) | **English**
+**English** | [简体中文](README_zh.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # MPU6050 Burst Read and Write
 
@@ -18,3 +20,7 @@ The LED toggles once per second after the diagnostic completes.
 ## Usage
 
 Connect the MPU6050 with proper SCL/SDA pull-ups. Open the Keil project under `Projects/MDK-ARM`, build, and flash it, then view diagnostics at 115200 baud. The test intentionally overwrites several configuration registers; run the normal initialization again before using the sensor for meaningful measurements.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.

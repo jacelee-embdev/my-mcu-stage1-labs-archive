@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # MPU6050 连续读写
 
 ## 项目简介
@@ -18,3 +20,7 @@
 ## 使用方法
 
 接好 MPU6050 并确认 SCL/SDA 上拉，打开 `Projects/MDK-ARM` 中的 Keil 工程编译下载。用 115200 波特率查看诊断信息。测试会改写一段配置寄存器，只用于学习验证；正式采集前应重新执行正确的初始化配置。
+
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。
