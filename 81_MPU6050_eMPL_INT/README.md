@@ -1,4 +1,6 @@
-[简体中文](README_zh.md) | **English**
+**English** | [简体中文](README_zh.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # MPU6050 eMPL/DMP Interrupt Readout
 
@@ -15,3 +17,7 @@ The current learning implementation performs DMP reads and serial output inside 
 ## Usage
 
 Connect the sensor INT line in addition to I2C. Open the Keil project under `Projects/MDK-ARM`, build, and flash it, then observe attitude and heartbeat output at 115200 baud.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
