@@ -1,5 +1,7 @@
 **English** | [简体中文](README_zh.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 UART Character TX/RX
 
 ## Overview
@@ -27,3 +29,6 @@ Open `Projects/MDK-ARM/stm32f103.uvprojx` in Keil MDK, connect a USB-to-UART ada
 - `Drivers/SYSTEM/uart1/uart1.c`: USART1 setup, interrupt, and echo.
 - `Users/main.c`: Initialization and LED indicator.
 
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
