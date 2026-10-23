@@ -1,4 +1,6 @@
-[简体中文](README_zh.md) | **English**
+**English** | [简体中文](README_zh.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # STM32 TB6612 Dual-Motor Driver
 
@@ -13,3 +15,7 @@ The driver includes a complete test sequence for independent forward/reverse mot
 ## Usage
 
 Verify TB6612 supply, standby/enable, direction, and PWM wiring before enabling the test call. Open the Keil project under `Projects/MDK-ARM`, build, and flash it. Raise the wheels, limit supply current, and keep an immediate power cutoff available. PWM compare values use ARR = 7199.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.

@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32 TB6612 双电机驱动
 
 ## 项目简介
@@ -13,3 +15,7 @@
 ## 使用方法
 
 确认 TB6612 电源、待机/使能、方向和 PWM 接线后，按需取消测试函数注释。打开 `Projects/MDK-ARM` 中的 Keil 工程编译下载。首次测试必须架空车轮、限制电源电流，并准备立即断电；比较值范围与 ARR=7199 对应。
+
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。
