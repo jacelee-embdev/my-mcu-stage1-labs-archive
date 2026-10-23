@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32 小车基本运动
 
 ## 项目简介
@@ -17,3 +19,7 @@
 ## 使用方法
 
 打开 `Projects/MDK-ARM` 中的 Keil 工程，确认方向引脚与接线一致后编译下载。若实际运动方向相反，可交换对应电机线或调整方向控制逻辑。
+
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。
