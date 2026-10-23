@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 按键按下时间测量
 
 ## 项目简介
@@ -26,3 +28,6 @@
 - `Drivers/BSP/ic/ic.c`：边沿捕获、溢出累计和时间计算。
 - `Users/main.c`：轮询并输出测量结果。
 
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。
