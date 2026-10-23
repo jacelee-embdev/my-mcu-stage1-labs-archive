@@ -1,4 +1,6 @@
-[简体中文](README_zh.md) | **English**
+**English** | [简体中文](README_zh.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # STM32 Dual-Sensor Line-Tracking Car
 
@@ -18,3 +20,7 @@ The main loop samples the sensors about every 10 ms. This version uses fixed-spe
 ## Usage
 
 Adjust sensor height and sensitivity until the line and background are distinguished reliably. Open the Keil project under `Projects/MDK-ARM`, build, and flash it. If correction is reversed, check sensor placement, motor wiring, and active-level definitions.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
