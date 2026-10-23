@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 W25Q128 读写实验
 
 ## 项目简介
@@ -26,3 +28,6 @@ SPI1 通常使用 PA5/PA6/PA7，片选使用 PA4。程序上电会擦除 Flash �
 - `Drivers/BSP/w25q128/`：SPI Flash 指令和读写接口。
 - `Users/main.c`：擦写验证流程。
 
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。
