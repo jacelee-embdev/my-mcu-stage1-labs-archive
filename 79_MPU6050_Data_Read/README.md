@@ -1,4 +1,6 @@
-[简体中文](README_zh.md) | **English**
+**English** | [简体中文](README_zh.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # MPU6050 Raw Data Readout
 
@@ -15,3 +17,7 @@ The output contains raw register counts. It is not yet converted into degrees pe
 ## Usage
 
 Open the Keil project under `Projects/MDK-ARM`, build, and flash it. Keep the module still to observe noise and zero offsets. Add scale conversion, bias compensation, and filtering when physical measurements are required.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
