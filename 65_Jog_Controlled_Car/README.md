@@ -1,4 +1,6 @@
-[简体中文](README_zh.md) | **English**
+**English** | [简体中文](README_zh.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # STM32 Jog-Controlled Car
 
@@ -19,3 +21,7 @@ USART2 parses each message in the receive-idle interrupt. The current implementa
 ## Usage
 
 Connect a UART or Bluetooth serial link and the motor driver. Open the Keil project under `Projects/MDK-ARM`, build, and flash it. Adjust the delay to change the jog distance.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
