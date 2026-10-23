@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # MPU6050 单寄存器读写
 
 ## 项目简介
@@ -18,3 +20,7 @@
 ## 使用方法
 
 连接 MPU6050 的 SCL、SDA、电源和地，并确认总线有合适的上拉。打开 `Projects/MDK-ARM` 中的 Keil 工程编译下载，用 115200 波特率查看串口结果。若无应答，优先检查地址、接线和上拉电阻。
+
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。

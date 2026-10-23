@@ -1,4 +1,6 @@
-[简体中文](README_zh.md) | **English**
+**English** | [简体中文](README_zh.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # MPU6050 Single-Register Read and Write
 
@@ -18,3 +20,7 @@ After the one-time communication test, the LED toggles once per second as a hear
 ## Usage
 
 Connect SCL, SDA, power, and ground, and ensure suitable bus pull-ups. Open the Keil project under `Projects/MDK-ARM`, build, and flash it. View output at 115200 baud. If no acknowledgment is received, check wiring, pull-ups, logic voltage, and the device address first.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
