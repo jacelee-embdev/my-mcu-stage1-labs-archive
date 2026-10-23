@@ -1,4 +1,6 @@
-[简体中文](README_zh.md) | **English**
+**English** | [简体中文](README_zh.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # STM32 Car Speed Display and Bluetooth Report
 
@@ -13,3 +15,7 @@ The car moves forward after startup. The displayed and transmitted format is `sp
 ## Usage
 
 Connect the sensor, OLED, Bluetooth module, and motor driver. Open the Keil project under `Projects/MDK-ARM`, build, and flash it. USART2 runs at 115200 baud. For accurate measurements, add a conversion based on pulses per revolution, wheel circumference, gearbox ratio, and the sampling interval.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
