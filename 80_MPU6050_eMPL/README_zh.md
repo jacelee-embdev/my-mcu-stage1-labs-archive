@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # MPU6050 eMPL/DMP 姿态解算
 
 ## 项目简介
@@ -15,3 +17,7 @@
 ## 使用方法
 
 稳定连接 MPU6050，打开 `Projects/MDK-ARM` 中的 Keil 工程编译下载，并以 115200 波特率查看姿态数据。上电时保持模块静止，避免阻塞主循环导致 FIFO 溢出。
+
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。

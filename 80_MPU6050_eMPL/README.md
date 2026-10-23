@@ -1,4 +1,6 @@
-[简体中文](README_zh.md) | **English**
+**English** | [简体中文](README_zh.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # MPU6050 eMPL/DMP Attitude Calculation
 
@@ -15,3 +17,7 @@ Yaw is derived without an absolute magnetic heading reference and can drift over
 ## Usage
 
 Connect the MPU6050 reliably, open the Keil project under `Projects/MDK-ARM`, build, and flash it, then monitor the 115200-baud UART. Keep the module still during startup and avoid long blocking work in the loop, which could allow the FIFO to overflow.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
