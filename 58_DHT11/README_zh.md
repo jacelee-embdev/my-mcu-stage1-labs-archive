@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 DHT11 温湿度实验
 
 ## 项目简介
@@ -27,3 +29,6 @@ DHT11 刷新速度较慢，程序约每秒读取一次。数据线通常需要�
 - `Drivers/BSP/dht11/`：起始时序、位读取和校验。
 - `Users/main.c`：周期采集。
 
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。
