@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32 小车测速
 
 ## 项目简介
@@ -13,3 +15,7 @@
 ## 使用方法
 
 接好测速模块和电机驱动，打开 `Projects/MDK-ARM` 中的 Keil 工程编译下载，并用 115200 波特率查看串口。若要换算真实速度，需要结合每圈脉冲数、轮径、减速比和采样周期建立转换公式。
+
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。

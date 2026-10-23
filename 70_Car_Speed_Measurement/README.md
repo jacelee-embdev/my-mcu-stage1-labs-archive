@@ -1,4 +1,6 @@
-[简体中文](README_zh.md) | **English**
+**English** | [简体中文](README_zh.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # STM32 Car Speed Measurement
 
@@ -13,3 +15,7 @@ Every valid sensor pulse increments a counter. The timer callback reports and cl
 ## Usage
 
 Connect the speed sensor and motor driver, open the Keil project under `Projects/MDK-ARM`, build, and flash it. View the output at 115200 baud. To calculate physical speed, include the number of pulses per wheel revolution, wheel circumference, gearbox ratio, and exact sample period. Test with raised wheels first and confirm reliable pulse detection before driving.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
