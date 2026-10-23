@@ -44,8 +44,6 @@ The archive roughly follows these learning stages:
 
 Select a project name to open its English documentation.
 
-### 00–09: GPIO and Basic Applications
-
 | No. | Project | Description |
 |---:|---|---|
 | 00 | [STM32F103C8T6_Template](00_STM32F103C8T6_Template/README.md) | Reusable STM32F103C8T6 HAL project template. |
@@ -58,11 +56,6 @@ Select a project name to open its English documentation.
 | 07 | [Relay](07_Relay/README.md) | GPIO control of relay activation and release. |
 | 08 | [433MHz_RF](08_433MHz_RF/README.md) | Data detection from a 433 MHz wireless receiver. |
 | 09 | [Electric_Bike_Alarm](09_Electric_Bike_Alarm/README.md) | E-bike alarm combining vibration detection, wireless input, and a buzzer. |
-
-### 10–19: Time Base, Display, and PWM
-
-| No. | Project | Description |
-|---:|---|---|
 | 10 | [Custom_Delay](10_Custom_Delay/README.md) | Custom microsecond and millisecond delays based on SysTick. |
 | 11 | [Custom_OS_Delay](11_Custom_OS_Delay/README.md) | Delay functions designed to coexist with a system tick. |
 | 12 | [SysTick_Multitasking](12_SysTick_Multitasking/README.md) | SysTick counters and flags used to simulate periodic tasks. |
@@ -73,11 +66,6 @@ Select a project name to open its English documentation.
 | 17 | [Queue_System](17_Queue_System/README.md) | Queue control using buttons, display output, and queue logic. |
 | 18 | [Timer_Interrupt_LED](18_Timer_Interrupt_LED/README.md) | Periodic timer interrupts and LED toggling. |
 | 19 | [PWM_Breathing_LED](19_PWM_Breathing_LED/README.md) | Breathing LED effect produced by varying PWM duty cycle. |
-
-### 20–29: Capture, Measurement, and Watchdogs
-
-| No. | Project | Description |
-|---:|---|---|
 | 20 | [UART_Print](20_UART_Print/README.md) | Debug UART initialization and `printf()` redirection. |
 | 21 | [Input_Capture](21_Input_Capture/README.md) | Basic timer input-capture configuration and edge timing. |
 | 22 | [Button_Press_Capture](22_Button_Press_Capture/README.md) | Complete button pulse measurement with input capture. |
@@ -88,11 +76,6 @@ Select a project name to open its English documentation.
 | 27 | [Touchless_Trash_Can](27_Touchless_Trash_Can/README.md) | Touchless lid control using ultrasonic ranging and a servo. |
 | 28 | [Independent_Watchdog](28_Independent_Watchdog/README.md) | Independent watchdog setup, refresh, and reset verification. |
 | 29 | [Window_Watchdog](29_Window_Watchdog/README.md) | Window watchdog refresh timing and abnormal-reset behavior. |
-
-### 30–40: UART, Bluetooth, Wi-Fi, and 4G
-
-| No. | Project | Description |
-|---:|---|---|
 | 30 | [UART_Character_TX_RX](30_UART_Character_TX_RX/README.md) | UART single-character transmission, reception, and echo. |
 | 31 | [UART_Variable_Length_RX_Interrupt](31_UART_Variable_Length_RX_Interrupt/README.md) | Variable-length UART input handled with receive interrupts. |
 | 32 | [UART_Variable_Length_Idle_Interrupt](32_UART_Variable_Length_Idle_Interrupt/README.md) | UART idle-line detection used to delimit variable-length frames. |
@@ -104,11 +87,6 @@ Select a project name to open its English documentation.
 | 38 | [ESP8266_TCP_Server](38_ESP8266_TCP_Server/README.md) | ESP8266 TCP server and incoming client connections. |
 | 39 | [WiFi_Relay_Fan](39_WiFi_Relay_Fan/README.md) | Remote relay fan control through Wi-Fi commands. |
 | 40 | [4G_LED_Control](40_4G_LED_Control/README.md) | Remote LED control over a 4G transparent data link. |
-
-### 41–50: DMA, ADC, Display, and Storage
-
-| No. | Project | Description |
-|---:|---|---|
 | 41 | [DMA_Memory_to_Memory](41_DMA_Memory_to_Memory/README.md) | Data copy between two memory areas using DMA. |
 | 42 | [DMA_Memory_to_Peripheral](42_DMA_Memory_to_Peripheral/README.md) | DMA transfer from memory to a peripheral. |
 | 43 | [DMA_Peripheral_to_Memory](43_DMA_Peripheral_to_Memory/README.md) | DMA reception from a peripheral into a memory buffer. |
@@ -119,11 +97,6 @@ Select a project name to open its English documentation.
 | 48 | [OLED](48_OLED/README.md) | OLED initialization and character, string, and numeric output. |
 | 49 | [W25Q128_Read_Write](49_W25Q128_Read_Write/README.md) | SPI read, program, and erase operations for W25Q128 flash. |
 | 50 | [Matrix_Keypad](50_Matrix_Keypad/README.md) | Row/column scanning and key identification for a 4×4 keypad. |
-
-### 51–61: System Features, Sensors, and IoT
-
-| No. | Project | Description |
-|---:|---|---|
 | 51 | [Smart_Access_Control](51_Smart_Access_Control/README.md) | Smart access control with keypad, OLED, password storage, and lock. |
 | 52 | [BKP_Read_Write](52_BKP_Read_Write/README.md) | Backup domain and BKP register retention. |
 | 53 | [RTC_Read_Write](53_RTC_Read_Write/README.md) | RTC time setting, reading, and UART output. |
@@ -135,11 +108,6 @@ Select a project name to open its English documentation.
 | 59 | [OneNET_Temp_Humidity](59_OneNET_Temp_Humidity/README.md) | ESP8266, MQTT, and temperature/humidity uploads to OneNET. |
 | 60 | [Weather_Forecast](60_Weather_Forecast/README.md) | Retrieval, parsing, and OLED display of a three-day forecast. |
 | 61 | [Smart_Desk_Lamp](61_Smart_Desk_Lamp/README.md) | Automatic dimming, posture reminder, timer, and Bluetooth lamp control. |
-
-### 62–74: Smart Cars
-
-| No. | Project | Description |
-|---:|---|---|
 | 62 | [Car_Movement](62_Car_Movement/README.md) | Two-wheel car movement: forward, backward, turning, and stop. |
 | 63 | [UART_Controlled_Car](63_UART_Controlled_Car/README.md) | Car controlled by USART2 text commands. |
 | 64 | [Bluetooth_Controlled_Car](64_Bluetooth_Controlled_Car/README.md) | Wireless car control through a Bluetooth serial module. |
@@ -154,11 +122,6 @@ Select a project name to open its English documentation.
 | 72 | [WiFi_Car_Speed_Report](72_WiFi_Car_Speed_Report/README.md) | Wi-Fi car control and speed-data reporting to a server. |
 | 73 | [4G_Controlled_Car](73_4G_Controlled_Car/README.md) | 4G transparent control and remote speed reporting. |
 | 74 | [Voice_Controlled_Car](74_Voice_Controlled_Car/README.md) | Voice-code input and a framework for tracking, following, and avoidance modes. |
-
-### 75–84: Integrated Projects, MPU6050, and Balancing Car
-
-| No. | Project | Description |
-|---:|---|---|
 | 75 | [Smart_Home_ZET6](75_Smart_Home_ZET6/README.md) | ZET6 smart-home integration; the active entry mainly tests W25Q128. |
 | 76 | [Smart_Home_NB_ZET6](76_Smart_Home_NB_ZET6/README.md) | Integrated password access, environmental control, and MQTT connectivity. |
 | 77 | [MPU6050_Register_Read_Write](77_MPU6050_Register_Read_Write/README.md) | Single-register MPU6050 access through GPIO software I2C. |
