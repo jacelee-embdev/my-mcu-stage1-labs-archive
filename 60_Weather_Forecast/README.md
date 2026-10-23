@@ -1,4 +1,6 @@
-[简体中文](README_zh.md) | **English**
+**English** | [简体中文](README_zh.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # STM32 Three-Day Weather Forecast
 
@@ -22,3 +24,7 @@ Connect the ESP8266, OLED, and buttons, then enter your own Wi-Fi, weather API k
 - `Users/main.c`: refresh and page-selection logic.
 - `Drivers/BSP/weather/`: requests, parsing, and weather display.
 - `Drivers/BSP/esp8266/` and `Drivers/BSP/oled/`: communication and display drivers.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.

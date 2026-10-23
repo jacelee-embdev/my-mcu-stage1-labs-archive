@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32 三日天气预报
 
 ## 项目简介
@@ -22,3 +24,7 @@
 - `Users/main.c`：页面切换与刷新逻辑。
 - `Drivers/BSP/weather/`：天气请求、JSON 解析和显示处理。
 - `Drivers/BSP/esp8266/`、`Drivers/BSP/oled/`：通信与显示驱动。
+
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。
