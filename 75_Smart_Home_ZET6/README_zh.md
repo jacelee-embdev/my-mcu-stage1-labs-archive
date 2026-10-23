@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103ZET6 智能家居集成实验
 
 ## 项目简介
@@ -19,3 +21,7 @@
 - `Users/main.c`：系统初始化与当前测试入口。
 - `Drivers/BSP/tasks/`：灯光、报警和数据上传任务。
 - `Drivers/BSP/password/`、`w25q128/`：密码与外部 Flash。
+
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。

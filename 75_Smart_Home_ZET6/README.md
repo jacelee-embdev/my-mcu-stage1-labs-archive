@@ -1,4 +1,6 @@
-[简体中文](README_zh.md) | **English**
+**English** | [简体中文](README_zh.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # STM32F103ZET6 Smart Home Integration Lab
 
@@ -19,3 +21,7 @@ Open the Keil project under `Projects/MDK-ARM` and enable one feature at a time 
 - `Users/main.c`: initialization and active test entry.
 - `Drivers/BSP/tasks/`: lighting, alarm, and upload tasks.
 - `Drivers/BSP/password/` and `w25q128/`: password and flash support.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
