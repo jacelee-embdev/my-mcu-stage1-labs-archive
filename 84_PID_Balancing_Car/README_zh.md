@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32 PID 两轮平衡车
 
 ## 项目简介
@@ -18,3 +20,7 @@
 ## 安全调试
 
 先固定或悬空车体验证姿态方向、编码器符号和电机方向，再由小到大整定参数。错误方向会使电机瞬间全速输出。打开 `Projects/MDK-ARM` 中的 Keil 工程编译下载，并始终准备断开电机电源。
+
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。

@@ -1,4 +1,6 @@
-[简体中文](README_zh.md) | **English**
+**English** | [简体中文](README_zh.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # STM32 PID Two-Wheel Balancing Car
 
@@ -18,3 +20,7 @@ Bluetooth commands select standby, adjust target speed, and request left or righ
 ## Safety
 
 Secure or raise the chassis while verifying attitude sign, encoder sign, and motor direction. A reversed signal can command immediate full power. Tune from small values and keep a motor-power cutoff ready. Open the Keil project under `Projects/MDK-ARM`, build, and flash it only after these checks.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
