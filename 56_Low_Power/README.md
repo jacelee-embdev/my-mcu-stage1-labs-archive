@@ -1,5 +1,7 @@
 **English** | [简体中文](README_zh.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 Low-Power Modes
 
 ## Overview
@@ -26,3 +28,6 @@ Open `Projects/MDK-ARM/stm32f103.uvprojx` in Keil MDK, connect the buttons, then
 - `Drivers/BSP/lpwr/lpwr.c`: Low-power entry and wake configuration.
 - `Users/main.c`: Button-triggered test.
 
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
