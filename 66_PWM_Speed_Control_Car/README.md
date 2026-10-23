@@ -1,4 +1,6 @@
-[简体中文](README_zh.md) | **English**
+**English** | [简体中文](README_zh.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # STM32 PWM Car Speed Control
 
@@ -13,3 +15,7 @@ TIM2 produces an approximately 50 kHz PWM signal. The program repeats three left
 ## Hardware and Usage
 
 TIM2_CH1 on PA0 drives the left PWM input, and TIM2_CH2 on PA1 drives the right. Connect these signals to a motor driver, never directly to a motor. Open the Keil project under `Projects/MDK-ARM`, build, and flash it. Recalibrate the PWM frequency and compare values for the driver, motor, supply, and vehicle load.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
