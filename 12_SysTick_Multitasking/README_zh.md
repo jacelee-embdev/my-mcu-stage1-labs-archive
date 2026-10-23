@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 SysTick 模拟多任务
 
 ## 项目简介
@@ -26,3 +28,6 @@ PB8 和 PB9 上的两路 LED 以不同频率闪烁，展示基于系统节拍的
 - `Drivers/BSP/tasks/tasks.c`：计时、标志位和任务函数。
 - `Users/main.c`：协作式任务轮询。
 
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。
