@@ -1,4 +1,6 @@
-[简体中文](README_zh.md) | **English**
+**English** | [简体中文](README_zh.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # STM32 4G Remote-Controlled Car
 
@@ -17,3 +19,7 @@ The serial driver directory is still named `bluetooth`, but this project uses it
 ## Usage
 
 Verify module power, logic levels, baud rate, and network connection before flashing the Keil project. Calibrate the displayed speed for the actual wheel system, and test motor directions with raised wheels.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.

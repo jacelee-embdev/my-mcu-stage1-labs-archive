@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32 4G 远程控制小车
 
 ## 项目简介
@@ -17,3 +19,7 @@
 ## 使用方法
 
 确认模块电源、电平、波特率及网络连接后，再编译下载 Keil 工程。真实速度仍需按机械参数校准，测试电机时应先架空车轮。
+
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。
