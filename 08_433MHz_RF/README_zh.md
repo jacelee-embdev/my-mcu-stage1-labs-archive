@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103C8T6 433 MHz 无线接收实验
 
 ## 项目简介
@@ -30,3 +32,6 @@
 - `Users/main.c`：无线按键事件处理。
 - `Drivers/BSP/EXTI/`：接收输入中断与标志位。
 
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。
