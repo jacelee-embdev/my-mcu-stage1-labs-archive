@@ -1,4 +1,6 @@
-[简体中文](README_zh.md) | **English**
+**English** | [简体中文](README_zh.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # STM32 Bluetooth-Controlled Car
 
@@ -19,3 +21,7 @@ The serial rate is 115200 baud. The simple command format makes the project suit
 ## Usage
 
 Connect the Bluetooth module to USART2 and confirm its voltage, baud rate, and phone-terminal line-ending settings. Open the Keil project under `Projects/MDK-ARM`, build, and flash it. Raise the wheels during initial tests and keep a quick way to disconnect motor power.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.

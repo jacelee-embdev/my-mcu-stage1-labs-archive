@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32 蓝牙控制小车
 
 ## 项目简介
@@ -19,3 +21,7 @@
 ## 使用方法
 
 将蓝牙模块连接到 USART2，并确认模块工作电平、波特率和手机端换行设置。打开 `Projects/MDK-ARM` 中的 Keil 工程编译下载。首次运行应架空车轮，同时准备随时断开电机电源。
+
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。
