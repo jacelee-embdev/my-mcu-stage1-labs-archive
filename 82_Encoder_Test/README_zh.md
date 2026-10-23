@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32 正交编码器测试
 
 ## 项目简介
@@ -15,3 +17,7 @@
 ## 使用方法
 
 把编码器 A/B 相接到工程配置的定时器输入，确保电平兼容和共地。打开 `Projects/MDK-ARM` 中的 Keil 工程编译下载，缓慢正反转编码器并观察计数符号。
+
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。

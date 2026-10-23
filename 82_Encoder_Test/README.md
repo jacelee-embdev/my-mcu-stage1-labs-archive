@@ -1,4 +1,6 @@
-[简体中文](README_zh.md) | **English**
+**English** | [简体中文](README_zh.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # STM32 Quadrature Encoder Test
 
@@ -15,3 +17,7 @@ The sign indicates direction and the magnitude indicates pulse change during the
 ## Usage
 
 Connect the encoder A/B channels to the configured timer inputs with compatible voltage levels and a shared ground. Open the Keil project under `Projects/MDK-ARM`, build, and flash it. Rotate the encoder slowly in both directions and verify that the sign reverses.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
