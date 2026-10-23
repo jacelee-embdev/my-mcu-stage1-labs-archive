@@ -1,5 +1,7 @@
 **简体中文** | [English](README.md)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 # STM32F103ZET6 智能家居 NB 集成版
 
 ## 项目简介
@@ -18,3 +20,7 @@
 ## 使用说明
 
 该工程外设较多，建议按电源、串口、传感器、执行器、联网的顺序分模块联调。打开 `Projects/MDK-ARM` 中的 Keil 工程编译下载；联网测试前需要填写个人 Wi-Fi、MQTT 和 OneNET 设备参数。
+
+## 许可证
+
+本项目采用 **MIT License** 开源许可证。Copyright (c) 2026 JesMicro。完整条款请参阅根目录的 [LICENSE](LICENSE) 文件。第三方组件遵循各自的许可证。

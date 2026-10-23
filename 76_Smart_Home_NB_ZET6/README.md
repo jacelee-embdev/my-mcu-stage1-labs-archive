@@ -1,4 +1,6 @@
-[简体中文](README_zh.md) | **English**
+**English** | [简体中文](README_zh.md)
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 # STM32F103ZET6 Smart Home NB Integration
 
@@ -18,3 +20,7 @@ This project is a more integrated version of the ZET6 smart-home exercise. It in
 ## Usage
 
 Because many peripherals are involved, test power, UARTs, sensors, actuators, and networking in stages. Open the Keil project under `Projects/MDK-ARM`, build, and flash it. Before testing network features, enter the user's own Wi-Fi, MQTT, and OneNET device settings.
+
+## License
+
+This project is licensed under the **MIT License**. Copyright (c) 2026 JesMicro. See the [LICENSE](LICENSE) file in this project's root for the full terms. Third-party components are subject to their respective licenses.
